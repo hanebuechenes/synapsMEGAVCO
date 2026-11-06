@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "80d97038-3cb8-4274-b21c-2a27dedf7068")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 24.13 23.495)
+		(size 55.88 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4cbf227e-4421-478a-9d2e-fe31606c9582")
+		(property "Sheetname" "EurorackPower"
+			(at 24.13 22.7834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eurorackpower.kicad_sch"
+			(at 24.13 82.4996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "synapsMEGAVCO"
+				(path "/80d97038-3cb8-4274-b21c-2a27dedf7068"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 66.675)
+		(size 20.955 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eea877a7-1805-4f7a-afd9-1f9dc0b52a58")
+		(property "Sheetname" "MCU"
+			(at 142.24 65.9634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 142.24 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "synapsMEGAVCO"
+				(path "/80d97038-3cb8-4274-b21c-2a27dedf7068"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
